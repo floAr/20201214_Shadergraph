@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: snow_trees
-  m_Shader: {fileID: -6465566751694194690, guid: 129280511cd08aa45ad09db3c725f09a, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: e9c19640e82cbcf4ba0e43dc56b5767e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -111,6 +111,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_34660A83: 0.89
+    - Vector1_7F9B0FF: 20
     - Vector1_AF15E9BE: 0.21
     - _AORemapMax: 1
     - _AORemapMin: 0
@@ -235,7 +236,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_6B5475F3: {r: 0.8349056, g: 0.97358483, b: 1, a: 1}
-    - Color_E4560813: {r: 0.03457636, g: 0.3490566, b: 0.058356963, a: 1}
+    - Color_E4560813: {r: 0.022694914, g: 0.2830189, b: 0.042219225, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
