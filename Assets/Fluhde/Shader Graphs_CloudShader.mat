@@ -37,7 +37,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_CloudShader
   m_Shader: {fileID: -6465566751694194690, guid: 01a203210a6b89241aeb03ed6c65bccd, type: 3}
-  m_ShaderKeywords: _BLENDMODE_ALPHA _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT _SURFACE_TYPE_TRANSPARENT
+  m_ShaderKeywords: _ALPHATEST_ON _BLENDMODE_ALPHA _DOUBLESIDED_ON _ENABLE_FOG_ON_TRANSPARENT
+    _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -48,26 +49,27 @@ Material:
   disabledShaderPasses:
   - TransparentBackface
   - MOTIONVECTORS
-  - TransparentDepthPostpass
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_12080863: 219.45
+    - Vector1_12080863: 191.17
     - Vector1_160F1656: 0.29
     - Vector1_18AE3E91: 0.01
     - Vector1_205CF362: 150
     - Vector1_262578AC: 10
+    - Vector1_2CBE0B9C: 5000
     - Vector1_349E938D: 10
     - Vector1_3EDFBA46: 0.2
     - Vector1_41B9A437: 46.5
     - Vector1_4EC8B3C: 0.45
     - Vector1_5560632B: 0.2
     - Vector1_5C7708AA: 8000000
+    - Vector1_60F70B1C: 0.28
     - Vector1_69AC9D59: 2
     - Vector1_69C6576B: -11.7
     - Vector1_6B2105B3: 3.42
-    - Vector1_6EC0D476: 479.64
+    - Vector1_6EC0D476: 1500
     - Vector1_A245FF52: 24.9
     - Vector1_B5935D1: 0.001
     - Vector1_B7C630E0: 0.06
@@ -80,7 +82,7 @@ Material:
     - Vector1_EA76822F: 2
     - Vector1_F971082B: 0.35
     - Vector1_FA57633E: 0.02
-    - _AlphaCutoffEnable: 0
+    - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 10
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
@@ -108,13 +110,13 @@ Material:
     - _SurfaceType: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
-    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPostpassEnable: 1
     - _TransparentDepthPrepassEnable: 1
     - _TransparentSortPriority: 0
     - _TransparentZWrite: 1
     - _UseShadowThreshold: 0
     - _ZTestDepthEqualForOpaque: 4
-    - _ZTestGBuffer: 4
+    - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:

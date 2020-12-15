@@ -38,8 +38,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - Vector1_34660A83: 3.73
-    - Vector1_AF15E9BE: 0.88
+    - Vector1_34660A83: 0
+    - Vector1_AF15E9BE: -0.59
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
